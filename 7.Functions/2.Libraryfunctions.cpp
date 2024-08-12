@@ -16,3 +16,4 @@ int main(){
     cout<<log(num)<<endl;
 
 }
+

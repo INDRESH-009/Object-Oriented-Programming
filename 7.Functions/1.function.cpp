@@ -21,12 +21,12 @@ int main(){
 }
 void starLine(){     //function definition
     for(int i=0;i<45;i++){
-        cout<<"*";
+        cout<<"*"; 
     }
     cout<<endl;
-}
+} 
 //***************************************************************************************** */
-/* Component        Purpose                                             Example
+/* Component        Purpose                                             Example 
  *****************************************************************************************
 Declaration     Specifies function name, argument                       void func();
 (prototype)     types, and return value. Alerts
