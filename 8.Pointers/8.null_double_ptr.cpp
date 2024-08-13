@@ -30,7 +30,18 @@ int main(){
     int* ptr_a = &a;          //address of ptr_a - a700       value in ptr_a - a600       value of *ptr_a = 10
     int** ptr_b = &ptr_a;     //address of ptr_b - a800       value in ptr_b - a700       value of *ptr_b = a600
                               //value of **ptr_b - 10
+    cout<<"The value of a , ptr_a and ptr_b are : "<<endl;
     cout<<a<<endl;
     cout<<ptr_a<<endl;
     cout<<ptr_b<<endl;
+    cout<<"The value of &a , ptr_a and *ptr_b are : "<<endl;
+    cout<<&a<<endl;         //address of a 
+    cout<<ptr_a<<endl;      //value of ptr_a viz adress of a 
+    cout<<*ptr_b<<endl;    //derefrencing ptr_b to value of ptr_a viz adress of a 
+    cout<<"The value of a , *ptr_a and **ptr_b are : "<<endl;
+    cout<<a<<endl;         //value of a = 10
+    cout<<*ptr_a<<endl;    //value of the address of ptr_a value of a = 10 
+    cout<<**ptr_b<<endl;   //derefrencing ptr_b gives value of ptr_a viz address of a , derefrencing it to get value of a viz a = 10
+     
+
 }
